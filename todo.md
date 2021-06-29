@@ -15,4 +15,15 @@
         符号：ETH
     4. 导入本地账户
     5. MetaMask 操作本地账户转账
-5. 
+5. 安装OpenZeppelin
+    1. npm install @openzeppelin/contracts
+6. contracts 文件夹下创建合约文件：date.sol
+    1. 指定 solidity 版本
+    2. 合约内容
+7. migrations 文件夹下创建迁移文件：2_token_migration.js
+    1. 
+    2. 
+8. 执行编译
+    1. truffle compile
+9. 执行迁移
+    1. truffle migration
